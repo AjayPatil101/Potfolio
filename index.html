@@ -1,1 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/id sq.jpg"
+              alt="Ajay Patil Logo Image"
+              class="header__logo-img"
+              target="_blank"
+            />
+          </div>
+          <span class="header__logo-sub">Ajay Patil</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a
+                href="./index.html"
+                class="header__link"
+                id="header__link_Home"
+              >
+                Home
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#resume" class="header__link">RESUME </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+              tar
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is Ajay Patil</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I'm <strong>Computer Engineer</strong> by Profession and<strong>
+              Developer</strong
+            >
+            by Choice
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a
+            href="https://docs.google.com/document/d/1_iw4D9JtiGceDSUdgJfZ4v3z9kvvsdN-/edit?usp=sharing&ouid=116514013116557209096&rtpof=true&sd=true"
+            class="btn btn--bg"
+            >Resume</a
+          ><!-- https://drive.google.com/file/d/1gWFewBCsbbsyXNs2hOJ19BepgJVwzFy8/view?usp=sharing -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a
+            href="https://linkedin.com/in/ajay-patil-3482b5217"
+            class="home-hero__social-icon-link"
+            target="_blank"
+          >
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://github.com/Ajay2526"
+            class="home-hero__social-icon-link"
+            target="_blank"
+          >
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.hackerrank.com/ajayupatil101"
+            class="home-hero__social-icon-link"
+            target="_blank"
+          >
+            <img
+              src="./assets/png/hackerrank-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://youtube.com/@CODEWITHBRAINS"
+            class="home-hero__social-icon-link"
+            target="_blank"
+          >
+            <img
+              src="./assets/png/yt-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.instagram.com/ajay_patil_2512/"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+            target="_blank"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <a id="button"></a>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <div class="topdown">
+      <a href="./index.html"><img src="./assets/png/down.png" /></a>
+      <!-- <a href="./index.html"><i class="fa-solid fa-arrow-up"></i></a> -->
+    </div>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            I'm <strong>Computer Engineer</strong> by Profession and<strong>
+              Developer</strong
+            >
+            by Choice
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! I'm
+                <strong>Ajay Patil</strong>
+                and I'm a <strong> Full Stack Developer </strong>
+                located in Pune. I've done projects for my own for my knowledge
+                build, i have created small projects for business's of many
+                people like shop application ,medical stock details etc
+                <strong>digital products </strong>
+                i can create projects for both business and consumer use.
+              </p>
+              <p class="about__content-details-para">
+                I'm a bit of a digital product junky.in my bechelors degree I
+                have used lot of websites,webpages and mobile application for
+                different projects and application developement. For any queries
+                <strong>Contact me </strong> here.
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill" data-skill="Java">
+                <img
+                  src="./assets/png/java.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="Python">
+                <img
+                  src="./assets/png/python.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="C">
+                <img
+                  src="./assets/png/C.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="JavaScript">
+                <img
+                  src="./assets/png/Javascript.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="Node.js">
+                <img
+                  src="./assets/png/Node.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="Spring Boot">
+                <img
+                  src="./assets/png/sts.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="MongoDB">
+                <img
+                  src="./assets/png/Mongodb.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="SQL">
+                <img
+                  src="./assets/png/sql.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="React.js">
+                <img
+                  src="./assets/png/React.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="Bootstrap">
+                <img
+                  src="./assets/png/bootstrap.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="HTML">
+                <img
+                  src="./assets/png/HTML.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="CSS">
+                <img
+                  src="./assets/png/css.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="VS Code">
+                <img
+                  src="./assets/png/vs.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="Eclipse">
+                <img
+                  src="./assets/png/eclipse.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="GitHub">
+                <img
+                  src="./assets/png/GitHub.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+              <div class="skills__skill" data-skill="Git">
+                <img
+                  src="./assets/png/git.png"
+                  style="width: 70px; height: 70px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="resume" class="resume">
+      <span class="heading-sec__main"><b>Resume</b></span>
+      <div class="resumes">
+        <div class="timeline shadow">
+          <div class="sa">
+            <h1 class="h3 skills-title">Education</h1>
+          </div>
+
+          <div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Fabtech Technical Campus College of Engineering & Research
+                  Sangola
+                </h4>
+
+                <span>2019 — 2022</span>
+
+                <p class="timeline-text">
+                  Dr. Babasaheb Ambedkar Technological University, Bachlour Of Technology, Computer Science And Engineering, 2022
+
+
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Shivaji Polytechnic Atpadi
+                </h4>
+
+                <span>2013 — 2019</span>
+
+                <p class="timeline-text">
+                 Maharashtra State Board of Technical Education, Diploma, Mechanical Engineering, 2019
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Shri Bhavani High SchoolAnd Junior College Atpadi
+                </h4>
+
+                <span>2012 — 2013</span>
+
+                <p class="timeline-text">
+                  Maharashtra State Board of Secondary and Higher Secondary Education, SSC 10th class, 2013
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="timeline shadow">
+          <div class="sa">
+            <h1 class="h3 skills-title">Experience</h1>
+          </div>
+          <div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Glowing Bud, Pune</h4>
+
+                <span>2023 — Present</span>
+
+                <p class="timeline-text">
+                  E-SIM management facilitates seamless control of embedded SIM
+                  cards in devices, enabling remote provisioning of mobile
+                  profiles. This technology streamlines user experiences,
+                  allowing for efficient activation, deactivation, and switching
+                  between carriers, all while enhancing security through
+                  digital.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Q-Spiders, Pune</h4>
+
+                <span>2022 — 2023</span>
+
+                <p class="timeline-text">
+                  Acquired proficiency in Spring Boot and Hibernate frameworks for backend development.
+                  Developed frontend skills in HTML, CSS, and JavaScript to create interactive and responsive user interfaces.
+                  Completed a comprehensive training program focused on Java Full Stack development.
+                  Collaborated with team members to troubleshoot issues and optimize application performance.
+                  Worked on various projects, gaining hands-on experience in building and deploying web applications.
+                  Demonstrated strong problem-solving abilities and attention to detail in project deliverables.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="skill shadow">
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h1>Java</h1>
+                <data value="80"><b>80%</b></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h1>Node.js</h1>
+                <data value="75"><b>75%</b></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h1>Spring Boot</h1>
+                <data value="70"><b>70%</b></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h1>MongoDB</h1>
+                <data value="75"><b>75%</b></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h1>HTML 5</h1>
+                <data value="90"><b>90%</b></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h1>CSS 3</h1>
+                <data value="70"><b>70%</b></data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            <b>Here are some of my projects done by me</b>
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+              <!-- <div class="video-wrapper">
+                <video src="./assets/png/AutomorphicNumber.mp4"  width="320" height="240" controls/>
+              </div> -->
+            </div>
+
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                Student Management System
+              </h3>
+              <p class="projects__row-content-desc">
+                A Student Management System is a computer-based application that
+                helps educational institutions efficiently manage
+                student-related information which will help institutes to Enroll
+                Students details.
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                User Management System
+              </h3>
+              <p class="projects__row-content-desc">
+                A user management system is a software tool that helps
+                organizations or platforms manage user accounts and access
+                permissions. It allows administrators to create, modify, and
+                delete user accounts, control user roles and permissions, and
+                track user activities.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">To-Do list</h3>
+              <p class="projects__row-content-desc">
+                ToDolist is a web-based project developed using HTML, CSS, and
+                JavaScript. It serves as a simple task management tool where
+                users can add their daily tasks and prioritize them. The
+                interface allows users to input tasks, assign priority levels,
+                mark tasks as completed, and delete tasks. By using ToDolist,
+                users can stay organized and focused on their goals, effectively
+                managing their tasks in an intuitive and user-friendly manner.
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                School Mangement System
+              </h3>
+              <p class="projects__row-content-desc">
+                The web application is a record management system built on the
+                Hibernate framework and Servlets. It allows educational
+                institutions or organizations to maintain student and staff
+                records. The application offers features such as adding,
+                updating, and deleting student and staff information. It
+                provides a user-friendly interface for efficient data management
+                and integrates with the database through Hibernate for seamless
+                data persistence.
+              </p>
+              <a
+                href="./project-4.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+          <h2 class="heading heading-sec heading-sec__mb-med">
+              <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+              <span class="heading-sec__sub heading-sec__sub--lt">
+                  <b>For any Queries, Suggestions you can<strong> Contact </strong>me here</b>
+              </span>
+          </h2>
+          <div class="contact__form-container">
+              <form id="contact-form" class="contact__form">
+                  <div class="contact__form-field">
+                      <label class="contact__form-label" for="name">Name</label>
+                      <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name" />
+                  </div>
+                  <div class="contact__form-field">
+                      <label class="contact__form-label" for="email">Email</label>
+                      <input required placeholder="Enter Your Email" type="email" class="contact__form-input" name="email" id="email" />
+                  </div>
+                  <div class="contact__form-field">
+                      <label class="contact__form-label" for="message">Message</label>
+                      <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn--theme contact__btn">Submit</button>
+              </form>
+          </div>
+      </div>
+  </section>
+  
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+  
+  
+  
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/ajay-patil-3482b5217/"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/Ajay2526"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.hackerrank.com/ajayupatil101"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/hackerrank-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://youtube.com/@CODEWITHBRAINS"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/ajay_patil_2512/"
+              >
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Ajay Patil</h4>
+            <p class="main-footer__short-desc">
+              Computer Engineer by Profession and Developer by Choice
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2023. Made by
+          <a rel="noreferrer" target="_blank" href="#">AJAY PATIL</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

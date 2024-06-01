@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laptop Video Demo</title>
+    <style>
+        .laptop-container {
+            position: relative;
+            width: 800px;
+            height: 430px;
+        }
+
+        .laptop-image {
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-wrapper {
+            position: absolute;
+            top: 4px;
+            left: 120px;
+            width: 560px;
+            height: 400px;
+            overflow: hidden;
+        }
+
+        .video-wrapper video {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="laptop-container">
+        <img src="./assets/jpeg/project-mockup-example.jpeg" class="laptop-image" alt="Laptop Image">
+        <div class="video-wrapper">
+            <video src="./assets/png/AutomorphicNumber.mp4" controls autoplay></video>
+        </div>
+        <div>
+            <ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
