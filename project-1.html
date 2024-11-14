@@ -84,16 +84,14 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Student Management System</h1>
+        <h1 class="heading-primary">Food Delivery App</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            A Student Management System is a computer-based application that
-            helps educational institutions efficiently manage student-related
-            information which will help institutes to Enroll Students details.
+            A Food-Delivery App using Node.js, React, and MongoDB provides restaurant listings, cart/checkout, order tracking, secure payments, and user authentication, delivering a seamless experience similar to Zomato.
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="https://leafy-baklava-be205c.netlify.app/" class="btn btn--bg" target="_blank">Live Link</a>
         </div>
       </div>
     </section>
@@ -121,57 +119,44 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                The Student Management System is a web-based project built using
-                programming languages such as HTML5, CSS3, Spring Boot, MySQL,
-                and Thymeleaf. It aims to streamline student records processes
-                and improve overall management in Educational Institutions.
+                To build a food delivery app like Zomato using Node.js and React, along with MongoDB for the database, and integrating a payment gateway, you can approach the project in a structured manner.
               </p>
+              
               <p class="project-details__desc-para">
-                The project utilizes HTML5 and CSS3 for creating the user
-                interface and designing visually appealing web page. Spring
-                Boot, a Java framework, is used for developing the backend of
-                the system, providing a robust and scalable foundation for
-                handling business logic and data processing. MySQL is employed
-                as the database management system to store and manage
-                student-related information efficiently.
+                The <strong>frontend</strong> of the app, built with React, will provide a user interface (UI) where customers can explore restaurants, browse menus, place orders, and proceed to checkout. Key pages include the home page, which lists restaurants and allows filtering by categories like cuisine or price; the restaurant details page, which displays the menu with prices, descriptions, and images; the cart page, where users can add items and adjust quantities; the checkout page, which shows the final bill and collects delivery information; and an order history page for users to view past orders. Additionally, a login/signup feature will allow users to register, authenticate, and manage their accounts. React Router will handle navigation between these pages, while state management tools like Redux or the Context API can be used for managing user data and cart details. Axios will be used for making API requests to the backend.
               </p>
+              
               <p class="project-details__desc-para">
-                Thymeleaf, a server-side Java library engine, is integrated into
-                the project to generate dynamic web pages and render data from
-                the backend to the user interface. It allows for seamless
-                integration between the frontend and backend components of the
-                system
+                On the <strong>backend</strong>, Node.js with Express.js will handle the business logic. The server will manage user authentication, allowing users to register, log in, and view their profiles and order history. Restaurant management features will enable admins to add, edit, or delete restaurant menus and manage prices. The order management system will allow users to place orders, while restaurant admins can update order statuses (such as "preparing," "out for delivery," or "delivered"). For payment integration, a secure payment gateway like Razorpay, Stripe, or Paytm will be used to process transactions. Key libraries like Express.js will help set up the server, JWT (JSON Web Tokens) will manage user authentication, Mongoose will handle MongoDB schema management, and Bcrypt.js will encrypt passwords.
               </p>
+              
               <p class="project-details__desc-para">
-                By leveraging these technologies, the Student Management System
-                provides a user-friendly interface for managing student
-                documentation, including enrollment details, attendance records,
-                grades and other relevant information. It simplifies
-                administrative tasks, improves data management, and enhances
-                communication between students, teachers,administrators and it
-                is less time consuming.
+                The <strong>database</strong> will be powered by MongoDB, where data related to users, restaurants, menus, orders, and payments will be stored. The <strong>user</strong> schema will store data like name, email, password, delivery addresses, and order history. The <strong>restaurant</strong> schema will store restaurant information like name, location, and menu items. The <strong>order</strong> schema will record order details, including the user, restaurant, ordered items, total amount, and status. The <strong>payment</strong> schema will store payment-related details such as transaction ID, order ID, and payment status.
               </p>
+              
+              <p class="project-details__desc-para">
+                Lastly, integrating a <strong>payment gateway</strong> like Razorpay or Stripe will allow for secure transaction processing. On the frontend, a payment form will collect user payment details, while on the backend, the payment gateway’s SDK will create a payment order and generate a payment link. Once the payment is successful, the backend will update the order status and store the payment details in the database.
+              </p>
+              
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">SpringBoot</div>
-                <div class="skills__skill">MySQL</div>
-                <div class="skills__skill">Thymeleaf</div>
+                <div class="skills__skill">React Js</div>
+                <div class="skills__skill">Node Js</div>
+                <div class="skills__skill">MongoDB</div>
               </div>
             </div>
             <div class="project-details__links">
               <h3 class="project-details__content-title">See Live</h3>
               <a
-                href=" ./assets/png/AutomorphicNumber.mp4"
+                href="https://leafy-baklava-be205c.netlify.app/"
                 class="btn btn--med btn--theme project-details__links-btn"
                 target="_blank"
                 >Live Link</a
               >
               <a
-                href="https://github.com/Ajay2526/Student_Management_System_Using_SprringBoot/tree/main/Student-Management-System"
+                href="https://github.com/AjayPatil101/Food-Delivery"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
                 >Code Link</a
